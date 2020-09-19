@@ -1,0 +1,151 @@
+body {
+    font-family: 'Trebuchet MS';
+    color: lightcyan;
+    background-color: #07689F;
+    font-weight: 600;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0px;
+    padding-top: 25px;
+    justify-content: space-between;
+    width: 100%;
+    background: #07689F90;
+    z-index: 10;
+}
+
+.navbar .logo {
+    position: relative;
+    margin-left: 10px;
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.navbar .logo img {
+    position: absolute;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform .8s;
+}
+
+.navbar .logo:hover img {
+    transform: rotate(430deg);
+}
+
+.navbar .logo h1 {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-weight: 1000;
+    transition: transform .8s;
+}
+
+.navbar .logo:hover h1 {
+    transform: translateX(-40px);
+}
+
+.navbar .logo h1 .remove {
+    transition: opacity .8s;
+}
+
+.navbar .logo:hover h1 .remove {
+    opacity: 0;
+    transition: .8s;
+}
+
+.navbar .items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 40px;
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.navbar .items a {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    background: linear-gradient(180deg, transparent 25%, #40A8C4 25%, #40A8C4 28%, transparent 28%) no-repeat left bottom / 0 100%;
+    background-position-y: center;
+    transition-duration: .5s;
+    transition-property: margin-top, background;
+    justify-self: center;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .items a:hover {
+    margin-top: -10px;
+    background-size: 100% 100%;
+}
+
+.navbar .active-navbar-item {
+    margin-top: -10px;
+}
+
+.content {
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.blue {
+    color: #42D5F2;
+}
+
+.preambule h1 {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.preambule h3 {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.preambule p {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.categories h2 {
+    text-align: left;
+    margin-left: 20%;
+    text-decoration: solid underline #40A8C4;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        padding-top: 1%;
+    }
+
+    to {
+        opacity: 1;
+        padding-top: 0%;
+    }
+}
