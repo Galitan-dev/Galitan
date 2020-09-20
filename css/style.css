@@ -75,7 +75,7 @@ body {
     opacity: 0;
 }
 
-.navbar .items a {
+.navbar .items .navbar-item {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
@@ -89,13 +89,40 @@ body {
     cursor: pointer;
 }
 
-.navbar .items a:hover {
+.navbar .items .navbar-item:hover {
+    margin-top: -10px;
+    background-size: 100% 100%;
+    border-top-style: hidden;
+}
+
+.navbar .items .active-navbar-item {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    background: linear-gradient(180deg, transparent 25%, #40A8C4 25%, #40A8C4 28%, transparent 28%) no-repeat left bottom / 0 100%;
+    background-position-y: center;
+    transition-duration: .5s;
+    transition-property: margin-top, background;
+    justify-self: center;
+    color: white;
+    cursor: pointer;
     margin-top: -10px;
     background-size: 100% 100%;
 }
 
-.navbar .active-navbar-item {
-    margin-top: -10px;
+.navbar .items .active-navbar-item2 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    background: linear-gradient(180deg, transparent 25%, #40A8C4 25%, #40A8C4 28%, transparent 28%) no-repeat left bottom / 0 100%;
+    background-position-y: center;
+    transition-duration: .5s;
+    transition-property: margin-top, background;
+    justify-self: center;
+    color: white;
+    cursor: pointer;
 }
 
 .content {

@@ -4,9 +4,21 @@ function scrollView(target) {
 
 function initNavbarItems() {
     document.querySelectorAll('.items > a').forEach(item => {
-        console.log("Initializing navbar-item " + item.id);
         item.onclick = () => scrollView(item.id);
     });
+}
+
+function updateNavbarItems() {
+    let hoverANavbarItem = false;
+    document.querySelectorAll('.navbar-item').forEach(item => {
+        let c = window.getComputedStyle(item).getPropertyValue('border-top-style');
+        if (c == "hidden")
+            hoverANavbarItem = true;
+    });
+    if (hoverANavbarItem)
+        document.querySelectorAll('.active-navbar-item').forEach(item => item.className = "active-navbar-item2");
+    else
+        document.querySelectorAll('.active-navbar-item2').forEach(item => item.className = "active-navbar-item");
 }
 
 function onScroll() {
@@ -26,4 +38,5 @@ function onScroll() {
 }
 
 addEventListener("load", initNavbarItems);
+addEventListener("mousemove", updateNavbarItems);
 addEventListener("scroll", onScroll);
