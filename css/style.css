@@ -176,3 +176,32 @@ body {
         padding-top: 0%;
     }
 }
+
+.services .content {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services .service {
+    text-align: center;
+    margin: 50px;
+    width: 350px;
+    padding: 11px;
+    background-color: lightcyan;
+    color: steelblue;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.services .service img {
+    height: 200px;
+    transition-duration: .5s;
+    transition-property: transform, filter;
+}
+
+.services .service:hover img {
+    transform: translateY(-10px);
+    filter: drop-shadow(9px 5px 5px #5b5b5b5b);
+}

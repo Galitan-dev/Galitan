@@ -22,8 +22,8 @@
             <h1><span class="remove">G</span>alitan</h1>
         </div>
         <div class="items">
-            <a class="navbar-item" id="about">À propos</a>
             <a class="navbar-item" id="services">Services</a>
+            <a class="navbar-item" id="about">À propos</a>
             <a class="navbar-item" id="projects">Mes projets</a>
             <a class="navbar-item" id="contact">Me contacter</a>
         </div>
@@ -37,113 +37,34 @@
             <p class="blue">N'hésitez plus !</p>
         </div>
         <div class="categories">
-            <div class="about">
-                <h2>À propos</h2>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-            </div>
             <div class="services">
                 <h2>Services</h2>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
+                <div class="content">
+                    <div class="service">
+                            <img src="images/website.png">
+                            <h3 class="blue">Développement Web</h3>
+                            <p>Création de <span class="blue">Site Internet</span>, selon vos choix, afin de <span class="blue">mettre en avant</span> vos services.</p>
+                    </div>
+                    <div class="service">
+                            <img src="images/discord.png">
+                            <h3 class="blue">Bot Discord</h3>
+                            <p>Création de <span class="blue">Bot Discord</span>, selon vos choix, afin d'<span class="blue">automatiser</span> votre serveur et de le rendre <span class="blue">unique</span>.</p>
+                    </div>
+                    <div class="service">
+                            <img src="images/application.png">
+                            <h3 class="blue">Application Android</h3>
+                            <p>Création d'<span class="blue">Application Android</span> afin de rendre vos services <span class="blue">accesibles</span> à <span class="blue">tout instant</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <h2>À propos</h2>
             </div>
             <div class="projects">
                 <h2>Mes projets</h2>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
             </div>
             <div class="contact">
                 <h2>Me contacter</h2>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
-                <p>aaafeeeeafqsioagfP9GCEQZI9FHGOIHOafozgfhsoçqhoiuaghisgqigcdikhzbefiucbdsfçaOHOPJOHehdzufgiuihziufiueiusqhi</p>
             </div>
         </div>
     </div>
