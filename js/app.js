@@ -12,13 +12,9 @@ function updateNavbarItems() {
     let hoverANavbarItem = false;
     document.querySelectorAll('.navbar-item').forEach(item => {
         let c = window.getComputedStyle(item).getPropertyValue('border-top-style');
-        if (c == "hidden")
-            hoverANavbarItem = true;
+        hoverANavbarItem = c == "hidden" || hoverANavbarItem;
     });
-    if (hoverANavbarItem)
-        document.querySelectorAll('.active-navbar-item').forEach(item => item.className = "active-navbar-item2");
-    else
-        document.querySelectorAll('.active-navbar-item2').forEach(item => item.className = "active-navbar-item");
+    document.querySelectorAll('.active-navbar-item').forEach(item => item.className = hoverANavbarItem ? "active-navbar-item2" : "active-navbar-item");
 }
 
 function onScroll() {
@@ -30,13 +26,20 @@ function onScroll() {
     });
 
     document.querySelectorAll(".items > a").forEach(item => {
-        if (item.id == active.className)
-            item.className = "active-navbar-item";
-        else
-            item.className = "navbar-item";
+        item.className = item.id == active.className ? "active-navbar-item" : "navbar-item";
     });
 }
 
-addEventListener("load", initNavbarItems);
+function onResize() {
+    document.querySelector(".navbar").style.display = window.innerWidth < 980 ? "none" : "flex";
+}
+
+function init() {
+    initNavbarItems();
+    onResize();
+}
+
+addEventListener("load", init);
 addEventListener("mousemove", updateNavbarItems);
 addEventListener("scroll", onScroll);
+addEventListener("resize", onResize)
