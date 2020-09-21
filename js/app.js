@@ -2,19 +2,16 @@ function scrollView(target) {
     document.querySelector('.' + target).scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
 }
 
-function initNavbarItems() {
-    document.querySelectorAll('.items > a').forEach(item => {
-        item.onclick = () => scrollView(item.id);
-    });
-}
-
 function updateNavbarItems() {
     let hoverANavbarItem = false;
     document.querySelectorAll('.navbar-item').forEach(item => {
         let c = window.getComputedStyle(item).getPropertyValue('border-top-style');
         hoverANavbarItem = c == "hidden" || hoverANavbarItem;
     });
-    document.querySelectorAll('.active-navbar-item').forEach(item => item.className = hoverANavbarItem ? "active-navbar-item2" : "active-navbar-item");
+    if (hoverANavbarItem)
+        document.querySelectorAll('.active-navbar-item').forEach(item => item.className = "active-navbar-item2");
+    else
+        document.querySelectorAll('.active-navbar-item2').forEach(item => item.className = "active-navbar-item");
 }
 
 function onScroll() {
@@ -35,7 +32,7 @@ function onResize() {
 }
 
 function init() {
-    initNavbarItems();
+    onScroll();
     onResize();
 }
 

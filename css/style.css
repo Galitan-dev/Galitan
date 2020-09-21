@@ -177,7 +177,7 @@ body {
     }
 }
 
-.services .content {
+.categories div .content {
     margin-top: -10px;
     display: flex;
     flex-wrap: wrap;
@@ -205,4 +205,17 @@ body {
 .services .service:hover img {
     transform: translateY(-10px);
     filter: drop-shadow(9px 5px 5px #5b5b5b5b);
+}
+
+.about .presentation {
+    font-size: large;
+    text-align: left;
+    width: 500px;
+    padding-right: 200px;
+}
+
+.about .informations {
+    font-size: larger;
+    text-align: right;
+    padding-left: 200px;
 }
