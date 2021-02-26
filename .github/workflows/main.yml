@@ -1,0 +1,15 @@
+name: AutoDeploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: AutoDeploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy website on SSH
+        run: |
+          sshpass -p ${{ secrets.SSH_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "~/website/deploy.sh"
