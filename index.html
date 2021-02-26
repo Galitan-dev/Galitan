@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.galitan.tk/">
+    <meta property="og:title" content="Galitan | Développeur Web">
+    <meta name="og:description"
+        content="Besoin d'un Site Internet ou d'un Bot Discord pour vos services ? N'hésitez plus !">
+    <meta property="og:image" content="https://galitan.000webhostapp.com/images/logo.png">
+    <title>Galitan | Développeur Web</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel='stylesheet' href='css/base.css'>
+    <link rel='stylesheet' href='css/header.css'>
+    <link rel='stylesheet' href='css/content.css'>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png">
+            <h1><span class="remove">G</span>alitan</h1>
+        </div>
+        <div class="items">
+            <a class="navbar-item" id="services" onclick="scrollView(this.id);">Services</a>
+            <a class="navbar-item" id="about" onclick="scrollView(this.id);">À propos</a>
+            <a class="navbar-item" id="projects" onclick="scrollView(this.id);">Mes projets</a>
+            <a class="navbar-item" id="contact" onclick="scrollView(this.id);">Me contacter</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="preambule">
+            <h1 class="blue">Galitan</h1>
+            <h3>Développeur <span class="blue">Web</span></h1>
+                <br>
+                <p>Besoin d'un Site Internet ou d'un Bot Discord pour vos services ?</p>
+                <p class="blue">N'hésitez plus !</p>
+        </div>
+        <div class="categories">
+            <div class="services">
+                <h2 style="animation-delay: 1s;">Services</h2>
+                <div class="content">
+                    <a class="service" onclick="scrollView('contact');" style="animation-delay: 1.3s;">
+                        <img src="images/website.png">
+                        <h3 class="blue">Développement Web</h3>
+                        <p>Création de <span class="blue">Site vitrine</span>, selon vos choix, afin de <span
+                                class="blue">mettre en avant</span> vos services.</p>
+                    </a>
+                    <a class="service" onclick="scrollView('contact');" style="animation-delay: 1.5s;">
+                        <img src="images/discord.png">
+                        <h3 class="blue">Bot Discord</h3>
+                        <p>Création de <span class="blue">Bot Discord</span>, selon vos choix, afin d'<span
+                                class="blue">automatiser</span> votre serveur et de le rendre <span
+                                class="blue">unique</span>.</p>
+                    </a>
+                    <a class="service" onclick="scrollView('contact');" style="animation-delay: 1.7s;">
+                        <img src="images/application.png">
+                        <h3 class="blue">Application WEB Javascript</h3>
+                        <p>Création d'<span class="blue">Application WEB en Javascript</span> afin de rendre vos projets
+                            ambitieux <span class="blue">possibles</span>.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="about">
+                <h2 style="animation-delay: 2s;">À propos</h2>
+                <div class="content">
+                    <p class="presentation">
+                        Bonjour, c'est Galitan.<br>
+                        <br>
+                        Je suis un <span class="blue">développeur web</span> depuis 2018,<br>
+                        et j'offre maintenant mes services au publique.<br>
+                        Pour moi, chaque <span class="blue">nouveau projet</span> est une source d'<span
+                            class="blue">apprentissage</span>.
+                    </p>
+                    <p class="informations">
+                        2007 ❤<br>
+                        Web et Node.js 🖥<br>
+                        Avancé ⚙
+                    </p>
+                </div>
+                <br>
+                <br>
+                <h2 style="animation-delay: 3s;">Mon équipe</h2>
+                <div class="content">
+                    <p class="equip">
+                        <span class="blue">Lexa</span> est une équipe <span class="blue">Française</span> de <span
+                            class="blue">Développement</span>,<br>
+                        de <span class="blue">Système Administateur</span> et de <span
+                            class="blue">Graphisme</span>.<br>
+                        L'équipe Lexa travaille principalement autour de <span class="blue">Minecraft</span>™.
+                    </p>
+                    <a href="https://discord.gg/C4uKpK3" target="blank">
+                        <img class="lexa" src="images/lexa.png">
+                    </a>
+                </div>
+            </div>
+            <div class="projects">
+                <h2 style="animation-delay: 4s;">Mes projets</h2>
+                <div class="content">
+                    <a href="https://discord.gg/GWFzTcN" target="blank">
+                        <div class="project" style="animation-delay: 4.3s;">
+                            <p>Pala's Fun</p>
+                            <img src="images/palas-fun.png">
+                        </div>
+                    </a>
+                    <a href="https://discord.gg/p5bu5grBH8" target="blank">
+                        <div class="project" style="animation-delay: 4.6s;">
+                            <p>Web colonies</p>
+                            <img src="images/web-colonies.png">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <h2 style="animation-delay: 0s;">Me contacter</h2>
+                <div class="content">
+                    <div class="input">
+                        <input type="text" id="firstname" required style="animation-delay: 5.2s;">
+                        <span>Prénom*</span>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="lastname" required style="animation-delay: 5.4s;">
+                        <span>Nom*</span>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="email" required style="animation-delay: 5.6s;">
+                        <span>Addresse Mail*</span>
+                    </div>
+                    <div class="input">
+                        <input type="text" id="discord" required style="animation-delay: 5.8s;">
+                        <span>Tag Discord</span>
+                    </div>
+                </div>
+                <textarea style="animation-delay: 0s;" id="message"></textarea>
+                <br>
+                <input type="submit" value="Envoyer" id="submit">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src='js/app.js' type="text/javascript"></script>
+</body>
+
+</html>

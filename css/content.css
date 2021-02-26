@@ -1,0 +1,244 @@
+.content {
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.preambule h1 {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.preambule h3 {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.preambule p {
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.categories h2 {
+    text-align: left;
+    margin-left: 20%;
+    text-decoration: solid underline #40A8C4;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+.categories div {
+    margin-top: 100px;
+}
+
+.categories div .content {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services .service {
+    text-align: center;
+    margin: 50px;
+    width: 350px;
+    padding: 11px;
+    background-color: lightcyan;
+    color: steelblue;
+    border-radius: 10%;
+    cursor: pointer;
+    box-shadow: 0px 0px 21px 10px rgba(64,168,196,0.7);
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+.services .service img {
+    height: 200px;
+    transition-duration: .5s;
+    transition-property: transform, filter;
+}
+
+.services .service:hover img {
+    transform: translateY(-10px);
+    filter: drop-shadow(9px 5px 5px #5b5b5b5b);
+}
+
+.about {
+    font-size: larger;
+}
+
+.about .presentation {
+    text-align: left;
+    padding-right: 200px;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    opacity: 0;
+}
+
+.about .informations {
+    text-align: center;
+    float: right;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 2.6s;
+    opacity: 0;
+}
+
+.about .equip {
+    font-size: 22px;
+    text-align: left;
+    padding-right: 200px;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 3.3s;
+    opacity: 0;
+}
+
+.about .lexa {
+    height: 100px;
+    border-radius: 50%;
+    transition: .5s;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 3.6s;
+    opacity: 0;
+}
+
+.about .lexa:hover {
+    transform: scale(1.3);
+}
+
+.projects .project {
+    text-align: center;
+    margin: 50px;
+    width: 350px;
+    padding: 11px;
+    padding-top: 0px;
+    border-radius: 10%;
+    cursor: pointer;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+.projects .project img {
+    height: 200px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.projects .project:hover img {
+    transform: scale(1.3);
+}
+
+.projects a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+.projects .project p {
+    font-size: xx-large;
+    transition: .5s;
+}
+
+.projects .project:hover p {
+    transform: translateY(-30px);
+}
+
+.contact content {
+    display: grid;
+    justify-content: space-between;
+}
+
+.contact .input {
+    font-size: large;
+    margin: 50px;
+    position: relative;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+}
+
+.contact textarea {
+    background-color: transparent;
+    position: relative;
+    border: #42D5F2 solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    color: aliceblue;
+    font-size: medium;
+    scroll-snap-type: proximity;
+    animation-name: reveal;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    opacity: 0;
+    width: 70vw;
+    height: 20vw;
+    max-width: var(width);
+    min-width: var(width);
+    max-height: var(height);
+    min-height: var(height);
+    margin-bottom: 50px;
+}
+
+.contact #submit {
+    background-color: transparent;
+    position: relative;
+    border: #42D5F2 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.contact .input input,
+.contact .input input:focus {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    border-bottom: #42D5F2 solid 2px;
+    padding-bottom: 3px;
+    border-radius: 0;
+    outline: none;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.contact span {
+    opacity: .5;
+    transition: .5s;
+    position: absolute;
+    margin-left: -198px;
+    margin-top: -5px;
+    z-index: -1;
+}
+
+.contact .input input:focus + span,
+.contact .input input:valid + span {
+    transform: translateY(-30px);
+    opacity: 1;
+    font-weight: 500;
+}

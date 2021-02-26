@@ -1,0 +1,49 @@
+body {
+    font-family: 'Trebuchet MS';
+    color: lightcyan;
+    background-color: #07689F;
+    font-weight: 600;
+}
+
+.blue {
+    color: #42D5F2;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        top: 1%;
+    }
+
+    to {
+        opacity: 1;
+        top: 0%;
+    }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  -webkit-text-fill-color: aliceblue;
+  color: aliceblue;
+  box-shadow: 0 0 0 30px #07689F inset;
+  -webkit-box-shadow: 0 0 0 30px #07689F inset;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: none; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #42D5F250; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #42D5F299; 
+}

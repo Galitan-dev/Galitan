@@ -1,10 +1,3 @@
-body {
-    font-family: 'Trebuchet MS';
-    color: lightcyan;
-    background-color: #07689F;
-    font-weight: 600;
-}
-
 .navbar {
     position: fixed;
     display: flex;
@@ -13,7 +6,7 @@ body {
     padding-top: 25px;
     justify-content: space-between;
     width: 100%;
-    background: #07689F90;
+    background: #07679fe1;
     z-index: 10;
 }
 
@@ -123,99 +116,4 @@ body {
     justify-self: center;
     color: white;
     cursor: pointer;
-}
-
-.content {
-    position: relative;
-    margin-top: 200px;
-    text-align: center;
-}
-
-.blue {
-    color: #42D5F2;
-}
-
-.preambule h1 {
-    animation-name: reveal;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.preambule h3 {
-    animation-name: reveal;
-    animation-duration: 1s;
-    animation-delay: .1s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.preambule p {
-    animation-name: reveal;
-    animation-duration: 1s;
-    animation-delay: .3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-
-.categories h2 {
-    text-align: left;
-    margin-left: 20%;
-    text-decoration: solid underline #40A8C4;
-}
-
-@keyframes reveal {
-    from {
-        opacity: 0;
-        padding-top: 1%;
-    }
-
-    to {
-        opacity: 1;
-        padding-top: 0%;
-    }
-}
-
-.categories div .content {
-    margin-top: -10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.services .service {
-    text-align: center;
-    margin: 50px;
-    width: 350px;
-    padding: 11px;
-    background-color: lightcyan;
-    color: steelblue;
-    border-radius: 10%;
-    cursor: pointer;
-    box-shadow: 0px 0px 21px 10px rgba(64,168,196,0.7);
-}
-
-.services .service img {
-    height: 200px;
-    transition-duration: .5s;
-    transition-property: transform, filter;
-}
-
-.services .service:hover img {
-    transform: translateY(-10px);
-    filter: drop-shadow(9px 5px 5px #5b5b5b5b);
-}
-
-.about .presentation {
-    font-size: large;
-    text-align: left;
-    width: 500px;
-    padding-right: 200px;
-}
-
-.about .informations {
-    font-size: larger;
-    text-align: right;
-    padding-left: 200px;
 }
