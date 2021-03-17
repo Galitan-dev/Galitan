@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: AutoDeploy
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - name: Deploy website on SSH
         run: |
