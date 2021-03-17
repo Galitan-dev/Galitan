@@ -29,7 +29,7 @@ function shape(i) {
 let nodes;
 
 function noiseNode(x, y) {
-	return { flag: noise(x / 2 + millis() * 0.001, y / 2 - millis() * 0.001) < .5 ? false : true, x, y };
+	return { flag: noise(x / 2, y / 2, millis() * 0.0001) < .5 ? false : true, x, y };
 	// return { flag: Math.floor(Math.random() * 2), x, y };
 }
 
